@@ -5,6 +5,7 @@ on:
     branches: [ master ]
     paths:
       - iac/*
+  workflow_dispatch:
 
 jobs:
   terraform:
